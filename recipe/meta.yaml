@@ -1,5 +1,5 @@
 {% set name = "mmh3" %}
-{% set version = "3.0.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/hajimes/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: c83aa26569eb83d230cf83f0a673d2f0cde713e02d5be5f6ae7c7a3be7059532
+  sha256: 0288739ef0f9a29fc33dbf88a7f305e0b14ddfd057b58e33d251c6165b904a24
 
 build:
-  number: 3
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
@@ -33,8 +33,8 @@ test:
 
 about:
   home: http://packages.python.org/mmh3
-  license: CC0-1.0
-  license_family: CC
+  license: MIT
+  license_family: MIT
   license_file: LICENSE
   summary: Python wrapper for MurmurHash (MurmurHash3), a set of fast and robust hash functions.
 
