@@ -1,5 +1,5 @@
 {% set name = "mmh3" %}
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/hajimes/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: 0288739ef0f9a29fc33dbf88a7f305e0b14ddfd057b58e33d251c6165b904a24
+  sha256: 6636b19c4d7e2a18a838426d31d8f924cbab308ffcc6a0b66824c1bf0b405a79
 
 build:
   number: 0
