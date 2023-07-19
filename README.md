@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mmh3-feedstock/
 
 Home: http://packages.python.org/mmh3
 
-Package license: CC0-1.0
+Package license: MIT
 
 Summary: Python wrapper for MurmurHash (MurmurHash3), a set of fast and robust hash functions.
 
