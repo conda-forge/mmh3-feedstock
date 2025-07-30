@@ -1,5 +1,5 @@
 {% set name = "mmh3" %}
-{% set version = "5.1.0" %}
+{% set version = "5.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/hajimes/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: 9bf46d3f16457da92fb326a15e493239696d99a36b2bb8ae2097897cf3600c73
+  sha256: 5ac08a79c9f6ba64062d7203fcc918326dbbe7fa7c9a538d1849bafd861430e5
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
